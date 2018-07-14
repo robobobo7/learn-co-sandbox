@@ -1,11 +1,24 @@
-Hi! 👋
+<!--var animal = 'dog'-->
 
-You've opened the IDE Sandbox. 🎉
+<!--function myAnimal() {-->
+<!--  return animal-->
+<!--}-->
 
-The Sandbox is an environment that you can access on "readme" and "code-along" lessons in Learn. It's a great place to experiment with code when you're not working on a "lab" (labs open the IDE In Browser).
+<!--function yourAnimal() {-->
+<!--  var animal = 'cat'-->
+<!--  // How can we make sure that this function-->
+<!--  // and the above function both pass?-->
+<!--  // P.S.: You can't just hard-code 'cat' below-->
+<!--  return animal-->
+<!--}-->
 
-The work you do in the Sandbox will be saved from lesson to lesson, and is automatically saved on your behalf to a repository in your GitHub account called `learn-co-sandbox`.
 
-Please DO NOT touch this repository in GitHub, as it will affect your Sandbox experience, and potentially cause your work to be out of sync.
+var funkyFunction = function() {
+  return function() {
+    return "FUNKY!"
+  }
+}
 
-To learn more about the Sandbox, please visit http://help.learn.co/ide-in-browser#sandbox.
+// We want 'funkyFunction' on the line below to return a function that returns "FUNKY!" -- how can we accomplish that?
+// NOTE: To pass this final test, you only need to modify the code below this line.
+var theFunk = funkyFunction;
